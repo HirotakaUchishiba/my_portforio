@@ -5,8 +5,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
 
-    // 以下のコードで、お問い合わせフォームの情報をバックエンドサーバーに送信することができます。
-    // ただし、バックエンド側で適切な処理が実装されている必要があります。
+    // サーバー契約時以下のコードを有効化
     // fetch("/contact", {
     //     method: "POST",
     //     headers: {
